@@ -1,3 +1,5 @@
+import { isEmptyObject, isStrictObject } from "hi-datatype-operation";
+
 type TypeGuardConfig<T extends object> = {
   [key in keyof T]: (value: unknown) => value is T[key];
 };
@@ -13,7 +15,7 @@ export function createObjTypeGuard<T extends object>(
   return (obj: unknown): obj is T => {
     try {
       // 基础对象检查
-      if (!isPlainObject(obj)) {
+      if (!isStrictObject(obj)) {
         throw new Error("Not a plain object");
       }
       if (isEmptyObject(obj)) {
