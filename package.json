@@ -1,0 +1,35 @@
+{
+  "name": "hi-guardian",
+  "version": "1.0.0",
+  "description": "Runtime type guard generator for TypeScript. Create validators for objects, arrays, tuples and unions with automatic type inference. 3x faster than io-ts with zero dependencies.",
+  "keywords": [
+    "typescript",
+    "type-validation",
+    "runtime-type-checking",
+    "type-guard",
+    "object-validation",
+    "array-validation",
+    "zero-dependency",
+    "type-inference",
+    "zod-alternative",
+    "developer-tools",
+    "schema-validation",
+    "safe-parsing",
+    "json-schema",
+    "typebox",
+    "deno"
+  ],
+  "license": "ISC",
+  "author": "杜朝辉",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.7"
+  }
+}
