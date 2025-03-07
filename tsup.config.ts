@@ -8,5 +8,6 @@ export default defineConfig({
   clean: true,
   treeshake: true,
   sourcemap: true,
+  minify: true,
   external: [], // 按需添加外部依赖
 });
