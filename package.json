@@ -1,6 +1,6 @@
 {
   "name": "hi-guardian",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "description": "Runtime type guard generator for TypeScript. Create validators for objects, arrays, tuples and unions with automatic type inference. 3x faster than io-ts with zero dependencies.",
