@@ -1,8 +1,8 @@
 {
   "name": "hi-guardian",
   "version": "1.0.2",
-  "main": "./dist/index.cjs",
-  "types": "./dist/index.d.cts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "description": "Runtime type guard generator for TypeScript. Create validators for objects, arrays, tuples and unions with automatic type inference. 3x faster than io-ts with zero dependencies.",
   "keywords": [
     "typescript",
@@ -36,5 +36,6 @@
   },
   "dependencies": {
     "hi-datatype-operation": "^1.0.2"
-  }
+  },
+  "packageManager": "pnpm@10.6.1+sha512.40ee09af407fa9fbb5fbfb8e1cb40fbb74c0af0c3e10e9224d7b53c7658528615b2c92450e74cfad91e3a2dcafe3ce4050d80bda71d757756d2ce2b66213e9a3"
 }
