@@ -4,8 +4,9 @@
     "module": "ESNext",
     "moduleResolution": "node",
     "baseUrl": ".",
-    "target": "ES2015",
+    "target": "ES2020",
     "declaration": true,
+    "esModuleInterop": true,
     "lib": [
       "ESNext",
       "DOM"
